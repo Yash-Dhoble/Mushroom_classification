@@ -304,6 +304,7 @@ def user_input_features():
     features= pd.DataFrame(data,index=[0])
     
     return features
+
 df= user_input_features()
 table= pd.read_csv('mushrooms.csv')
 table=table.drop(['veil-type','gill-attachment','veil-color'],axis=1)
