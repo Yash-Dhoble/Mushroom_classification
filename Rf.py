@@ -397,8 +397,5 @@ predict=model.predict(df)
 st.subheader('Predicted Type')
 
 
-# In[47]:
-
-
 st.write('Edible'if predict==0 else 'Poisonous')
 
